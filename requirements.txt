@@ -1,0 +1,6 @@
+sqlalchemy==1.3.3
+sqlalchemy-filters==0.10.0
+psycopg2-binary==2.8.6
+postgres==2.2.2
+uvicorn==0.15.0
+fastapi==0.70.0

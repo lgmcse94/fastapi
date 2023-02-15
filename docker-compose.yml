@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - '8200:8200'
+    environment:
+      - POSTGRES_DATABASE_URL=postgresql://postgres:postgres123@aytcaaa.cuqhbf9aczia2.ap-south-1.rds.amazonaws.com:5432/mydb
+      - POSTGRES_HOST=aytcaa.cuqhbf9aczia2.ap-south-1.rds.amazonaws.com
